@@ -3,14 +3,15 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
       <title>Quiz App</title>
       <link href="dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="starter-template.css" rel="stylesheet">
       <script src="https://s3.amazonaws.com/stitch-sdks/js/library/stable/stitch.min.js"></script>
+
+      <!-- Primary Logic is in app.js -->
       <script src="app.js"></script>
    </head>
+
    <body onLoad="displayQuestionsOnLoad()">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
          <a class="navbar-brand" href="#">QuizApp</a>
@@ -40,6 +41,7 @@
          <br>
          <input type="button" value="Add Question" onClick="addQuestion()" class="btn btn-primary">
       </div>
+
       <!-- Bootstrap core JavaScript
          ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
